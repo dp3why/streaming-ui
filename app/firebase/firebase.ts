@@ -9,10 +9,10 @@ import {
 import { getFunctions } from "firebase/functions";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCtZiHTvfiMGYR4_-WNq54E8lv0effyKpE",
-  authDomain: "yt-firebase-b1.firebaseapp.com",
-  projectId: "yt-firebase-b1",
-  appId: "1:710362628624:web:8c673dfee33d54f45c8095",
+  apiKey: process.env.NEXT_PUBLIC_APIKEY,
+  authDomain: process.env.NEXT_PUBLIC_AUTHDOMAIN,
+  projectId: process.env.NEXT_PUBLIC_PROJECTID,
+  appId: process.env.NEXT_PUBLIC_APPID,
 };
 
 // Initialize Firebase
